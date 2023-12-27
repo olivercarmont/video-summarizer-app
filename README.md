@@ -3,7 +3,7 @@
 > **About Myself**: 🤖 I'm an aspiring ML Engineer sharing my learnings on ML/AI on [**YouTube!**](https://www.youtube.com/@olivercarmont) <br />
 
 ## Overview:
-Welcome to this video tutorial on creating a YouTube Video Summarizer app using Python, Streamlit, YouTube Transcript API, and OpenAI's GPT-3.5 Turbo. If you prefer video format, check out the [YouTube tutorial](https://www.youtube.com/watch?v=p1xBjx6rnmA&t=984s&ab_channel=OliverCarmont).
+Welcome to this video tutorial on creating a YouTube Video Summarizer app using Python, Streamlit, YouTube Transcript API, and OpenAI's GPT-3.5 Turbo. If you prefer video format, check out the [**YouTube tutorial**](https://www.youtube.com/watch?v=p1xBjx6rnmA&t=984s&ab_channel=OliverCarmont).
 <br />
 
 ## 1 - Setting Up Your Project:
@@ -31,7 +31,7 @@ Welcome to this video tutorial on creating a YouTube Video Summarizer app using 
 ## 4 - Import Libraries
 1. Inside app.py import the following libraries:
 
-```
+```python
 import streamlit as st
 from openai import OpenAI
 from youtube_transcript_api import YouTubeTranscriptApi
