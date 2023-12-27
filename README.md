@@ -40,7 +40,7 @@ import re
 ```
 
 ## 5 - Initialize Variables
-1. In the same file, nitialize the following variables:
+1. In the same file, initialize the following variables:
 
 ```python
 client = OpenAI() # Initialize OpenAI Client
