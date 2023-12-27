@@ -71,7 +71,7 @@ link_inserted = st.button("Summarize", type="primary")
 3. Input a YouTube link and click "Summarize."
 
 
-# 8 - Summarize YouTube Video
+## 8 - Summarize YouTube Video
 1. Add logic to transcribe video with YouTubeTranscriptAPI and summarize it with OpenAI's gpt-3.5-turbo.
    
 ```python
@@ -103,7 +103,7 @@ if link_inserted:
 ```
 
 
-# 9 - Display Video Summary
+## 9 - Display Video Summary
 1. Write the following logic at the bottom of the file to display the video summary.
 ```python
 if full_text:
