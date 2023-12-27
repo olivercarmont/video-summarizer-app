@@ -17,7 +17,7 @@ Welcome to this video tutorial on creating a YouTube Video Summarizer app using 
 
 ## 3 - Install Dependencies
 1. Install the following dependecies
-```
+```python
 # Install Streamlit
 !pip install streamlit
 
