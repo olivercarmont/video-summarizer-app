@@ -13,7 +13,8 @@ Welcome to this video tutorial on creating a YouTube Video Summarizer app using 
 
 ## 2 - Adding OpenAI API Key to .env:
 1. Obtain your OpenAI API key from [OpenAI API](https://platform.openai.com/signup).
-2. In Terminal, inside your project directory, add an environment variable by running:`export OPENAI_API_KEY=(your api key here`.
+2. In Terminal, inside your project directory, add an environment variable by running:<br />
+`export OPENAI_API_KEY=(your api key here)`
 
 ## 3 - Install Dependencies
 1. Install the following dependecies
@@ -42,7 +43,7 @@ import re
 ## 5 - Initialize Variables
 1. In the same file, nitialize the following variables:
 
-```
+```python
 client = OpenAI() # Initialize OpenAI Client
 full_text = ""
 link_inserted = False
@@ -51,7 +52,7 @@ link_inserted = False
 ## 6 - Create Streamlit Dashboard
 1. Add the following code below to add a nice dashboard to our app:
 
-```
+```python
 # Create Streamlit App Title
 app_title = st.title(":red[YouTube] Video Summarizer")
 
@@ -74,7 +75,7 @@ link_inserted = st.button("Summarize", type="primary")
 # 8 - Summarize YouTube Video
 1. Add logic to transcribe video with YouTubeTranscriptAPI and summarize it with OpenAI's gpt-3.5-turbo.
    
-```
+```python
 if link_inserted:
     with st.spinner('Summarizing YouTube Video...'):
         time.sleep(3)
@@ -105,7 +106,7 @@ if link_inserted:
 
 # 9 - Display Video Summary
 1. Write the following logic at the bottom of the file to display the video summary.
-```
+```python
 if full_text:
     title = full_text.split('[PART_1]')[1].split('[PART_2]')[0].strip()
     st.header(title)
