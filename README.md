@@ -13,8 +13,7 @@ Welcome to this video tutorial on creating a YouTube Video Summarizer app using 
 
 ## 2 - Adding OpenAI API Key to .env:
 1. Obtain your OpenAI API key from [OpenAI API](https://platform.openai.com/signup).
-2. In Terminal, inside your project directory, add an environment variable by running:<br />
-`export OPENAI_API_KEY=(your api key here)`
+2. In Terminal, inside your project directory, add an environment variable by running: `export OPENAI_API_KEY=(your api key here)`
 
 ## 3 - Install Dependencies
 1. Install the following dependecies
